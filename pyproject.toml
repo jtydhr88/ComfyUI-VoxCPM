@@ -4,7 +4,7 @@ description = "VoxCPM v1.5-2 TTS. Optimized, fast and full featured nodes for ex
 version = "2.4.1"
 license = {file = "LICENSE"}
 requires-python = ">=3.10"
-dependencies = ["torch","torchaudio","transformers","safetensors","huggingface_hub","einops","addict","pydantic","simplejson","sortedcontainers","soundfile","tqdm","bitsandbytes"]
+dependencies = ["addict","simplejson","sortedcontainers","soundfile","bitsandbytes"]
 classifiers = [
     "Operating System :: OS Independent",
     "Environment :: GPU :: NVIDIA CUDA",
